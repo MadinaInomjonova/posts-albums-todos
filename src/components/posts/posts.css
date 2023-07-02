@@ -1,0 +1,57 @@
+.post {
+    background-color: var(--clr-card-bg);
+    padding: 20px 10px;
+    border-radius: .875rem;
+    width: 18.75rem;
+    max-height: 17.125rem;
+}
+
+.post .post__header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--clr-card-line);
+}
+
+/* Checkbox  */
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid var(--clr-gray);
+    border-radius: 3.125rem;
+    cursor: pointer;
+}
+.checkbox:hover {
+    transition: all .3 ease;
+    background-color: var(--clr-page-bg);
+}
+.checkbox input {
+    appearance: none;
+    -webkit-appearance: none;
+}
+.checkbox.checked {
+    background-color: var(--clr-icon);
+    transition: all .3s ease;
+    border: none;
+}
+.checkbox.checked .MuiSvgIcon-root {
+    display: block;
+}
+.checkbox .MuiSvgIcon-root {
+    font-size: 1rem;
+    color: white;
+    display: none;
+}
+
+/* Icons  */
+.post i {
+    font-size: 17.5px;
+    cursor: pointer;
+}
+
+.post i:hover {
+    transition: all .3s ease;
+    color: var(--clr-icon);
+}

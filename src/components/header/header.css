@@ -1,0 +1,31 @@
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid var(--clr-page-line);
+}
+header > div {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header input {
+    height: 3rem;
+    width: 20rem;
+    margin-right: 2rem;
+    padding: 0 1.5rem;
+    border-radius: 3.5rem;
+    border: none;
+    outline: none;
+    color: var(--clr-gray);
+}
+
+header .list-menu {
+    cursor: pointer;
+}
+header .list-menu:hover {
+    transition: all .3s ease;
+    color: var(--clr-icon);
+}
+.active {
+    transition: all .3s ease;
+    color: var(--clr-icon);
+}
